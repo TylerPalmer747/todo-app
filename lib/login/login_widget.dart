@@ -274,9 +274,18 @@ class _LoginWidgetState extends State<LoginWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Inter',
-                                                letterSpacing: 0.0,
-                                              ),
+                                            fontFamily: 'Inter',
+                                            letterSpacing: 0.0,
+                                            shadows: [
+                                              Shadow(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
+                                                offset: const Offset(2.0, 2.0),
+                                                blurRadius: 5.0,
+                                              )
+                                            ],
+                                          ),
                                           keyboardType:
                                               TextInputType.emailAddress,
                                           cursorColor:
@@ -383,9 +392,18 @@ class _LoginWidgetState extends State<LoginWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Inter',
-                                                letterSpacing: 0.0,
-                                              ),
+                                            fontFamily: 'Inter',
+                                            letterSpacing: 0.0,
+                                            shadows: [
+                                              Shadow(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
+                                                offset: const Offset(2.0, 2.0),
+                                                blurRadius: 5.0,
+                                              )
+                                            ],
+                                          ),
                                           cursorColor:
                                               FlutterFlowTheme.of(context)
                                                   .primaryText,
@@ -490,9 +508,18 @@ class _LoginWidgetState extends State<LoginWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Inter',
-                                                letterSpacing: 0.0,
-                                              ),
+                                            fontFamily: 'Inter',
+                                            letterSpacing: 0.0,
+                                            shadows: [
+                                              Shadow(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
+                                                offset: const Offset(2.0, 2.0),
+                                                blurRadius: 5.0,
+                                              )
+                                            ],
+                                          ),
                                           cursorColor:
                                               FlutterFlowTheme.of(context)
                                                   .primaryText,
@@ -610,9 +637,18 @@ class _LoginWidgetState extends State<LoginWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Inter',
-                                                letterSpacing: 0.0,
-                                              ),
+                                            fontFamily: 'Inter',
+                                            letterSpacing: 0.0,
+                                            shadows: [
+                                              Shadow(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
+                                                offset: const Offset(2.0, 2.0),
+                                                blurRadius: 5.0,
+                                              )
+                                            ],
+                                          ),
                                           keyboardType:
                                               TextInputType.emailAddress,
                                           cursorColor:
@@ -719,9 +755,18 @@ class _LoginWidgetState extends State<LoginWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Inter',
-                                                letterSpacing: 0.0,
-                                              ),
+                                            fontFamily: 'Inter',
+                                            letterSpacing: 0.0,
+                                            shadows: [
+                                              Shadow(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .secondaryText,
+                                                offset: const Offset(2.0, 2.0),
+                                                blurRadius: 5.0,
+                                              )
+                                            ],
+                                          ),
                                           cursorColor:
                                               FlutterFlowTheme.of(context)
                                                   .primaryText,

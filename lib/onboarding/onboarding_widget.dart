@@ -259,9 +259,17 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Inter',
-                                    letterSpacing: 0.0,
-                                  ),
+                            fontFamily: 'Inter',
+                            letterSpacing: 0.0,
+                            shadows: [
+                              Shadow(
+                                color:
+                                    FlutterFlowTheme.of(context).secondaryText,
+                                offset: const Offset(2.0, 2.0),
+                                blurRadius: 5.0,
+                              )
+                            ],
+                          ),
                           keyboardType: TextInputType.name,
                           cursorColor: FlutterFlowTheme.of(context).primaryText,
                           validator: _model.textController1Validator
@@ -346,9 +354,17 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Inter',
-                                    letterSpacing: 0.0,
-                                  ),
+                            fontFamily: 'Inter',
+                            letterSpacing: 0.0,
+                            shadows: [
+                              Shadow(
+                                color:
+                                    FlutterFlowTheme.of(context).secondaryText,
+                                offset: const Offset(2.0, 2.0),
+                                blurRadius: 5.0,
+                              )
+                            ],
+                          ),
                           keyboardType: TextInputType.name,
                           cursorColor: FlutterFlowTheme.of(context).primaryText,
                           validator: _model

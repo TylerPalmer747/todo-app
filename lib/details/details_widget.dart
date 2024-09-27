@@ -280,10 +280,18 @@ class _DetailsWidgetState extends State<DetailsWidget> {
                             ),
                             style:
                                 FlutterFlowTheme.of(context).bodyLarge.override(
-                                      fontFamily: 'Inter',
-                                      fontSize: 18.0,
-                                      letterSpacing: 0.0,
-                                    ),
+                              fontFamily: 'Inter',
+                              fontSize: 18.0,
+                              letterSpacing: 0.0,
+                              shadows: [
+                                Shadow(
+                                  color: FlutterFlowTheme.of(context)
+                                      .secondaryText,
+                                  offset: const Offset(2.0, 2.0),
+                                  blurRadius: 5.0,
+                                )
+                              ],
+                            ),
                             cursorColor:
                                 FlutterFlowTheme.of(context).primaryText,
                             validator: _model.textController2Validator

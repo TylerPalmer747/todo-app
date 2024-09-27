@@ -138,9 +138,16 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                       const EdgeInsetsDirectional.fromSTEB(24.0, 26.0, 24.0, 26.0),
                 ),
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Inter',
-                      letterSpacing: 0.0,
-                    ),
+                  fontFamily: 'Inter',
+                  letterSpacing: 0.0,
+                  shadows: [
+                    Shadow(
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      offset: const Offset(2.0, 2.0),
+                      blurRadius: 5.0,
+                    )
+                  ],
+                ),
                 cursorColor: FlutterFlowTheme.of(context).primaryText,
                 validator:
                     _model.titleTextControllerValidator.asValidator(context),
@@ -199,9 +206,16 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                       const EdgeInsetsDirectional.fromSTEB(24.0, 26.0, 24.0, 26.0),
                 ),
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Inter',
-                      letterSpacing: 0.0,
-                    ),
+                  fontFamily: 'Inter',
+                  letterSpacing: 0.0,
+                  shadows: [
+                    Shadow(
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      offset: const Offset(2.0, 2.0),
+                      blurRadius: 5.0,
+                    )
+                  ],
+                ),
                 maxLines: null,
                 minLines: 3,
                 cursorColor: FlutterFlowTheme.of(context).primaryText,
