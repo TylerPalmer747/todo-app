@@ -229,17 +229,14 @@ class _DetailsWidgetState extends State<DetailsWidget> {
                             obscureText: false,
                             decoration: InputDecoration(
                               isDense: true,
-                              labelStyle: FlutterFlowTheme.of(context)
-                                  .labelMedium
-                                  .override(
-                                    fontFamily: 'Inter',
-                                    fontSize: 18.0,
-                                    letterSpacing: 0.0,
-                                  ),
+                              labelStyle: const TextStyle(
+                                color: Colors.black,
+                              ),
                               hintStyle: FlutterFlowTheme.of(context)
                                   .labelLarge
                                   .override(
                                     fontFamily: 'Inter',
+                                    color: Colors.black,
                                     letterSpacing: 0.0,
                                   ),
                               enabledBorder: UnderlineInputBorder(
@@ -280,10 +277,18 @@ class _DetailsWidgetState extends State<DetailsWidget> {
                             ),
                             style:
                                 FlutterFlowTheme.of(context).bodyLarge.override(
-                                      fontFamily: 'Inter',
-                                      fontSize: 18.0,
-                                      letterSpacing: 0.0,
-                                    ),
+                              fontFamily: 'Inter',
+                              fontSize: 18.0,
+                              letterSpacing: 0.0,
+                              shadows: [
+                                Shadow(
+                                  color: FlutterFlowTheme.of(context)
+                                      .secondaryText,
+                                  offset: const Offset(2.0, 2.0),
+                                  blurRadius: 5.0,
+                                )
+                              ],
+                            ),
                             cursorColor:
                                 FlutterFlowTheme.of(context).primaryText,
                             validator: _model.textController2Validator

@@ -94,14 +94,13 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                 obscureText: false,
                 decoration: InputDecoration(
                   isDense: true,
-                  labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
-                        fontFamily: 'Inter',
-                        fontSize: 18.0,
-                        letterSpacing: 0.0,
-                      ),
+                  labelStyle: const TextStyle(
+                    color: Colors.black,
+                  ),
                   hintText: 'Title...',
                   hintStyle: FlutterFlowTheme.of(context).labelLarge.override(
                         fontFamily: 'Inter',
+                        color: Colors.black,
                         letterSpacing: 0.0,
                       ),
                   enabledBorder: OutlineInputBorder(
@@ -138,9 +137,16 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                       const EdgeInsetsDirectional.fromSTEB(24.0, 26.0, 24.0, 26.0),
                 ),
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Inter',
-                      letterSpacing: 0.0,
-                    ),
+                  fontFamily: 'Inter',
+                  letterSpacing: 0.0,
+                  shadows: [
+                    Shadow(
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      offset: const Offset(2.0, 2.0),
+                      blurRadius: 5.0,
+                    )
+                  ],
+                ),
                 cursorColor: FlutterFlowTheme.of(context).primaryText,
                 validator:
                     _model.titleTextControllerValidator.asValidator(context),
@@ -155,14 +161,13 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                 obscureText: false,
                 decoration: InputDecoration(
                   isDense: true,
-                  labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
-                        fontFamily: 'Inter',
-                        fontSize: 18.0,
-                        letterSpacing: 0.0,
-                      ),
+                  labelStyle: const TextStyle(
+                    color: Colors.black,
+                  ),
                   hintText: 'Details...',
                   hintStyle: FlutterFlowTheme.of(context).labelLarge.override(
                         fontFamily: 'Inter',
+                        color: Colors.black,
                         letterSpacing: 0.0,
                       ),
                   enabledBorder: OutlineInputBorder(
@@ -199,9 +204,16 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                       const EdgeInsetsDirectional.fromSTEB(24.0, 26.0, 24.0, 26.0),
                 ),
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Inter',
-                      letterSpacing: 0.0,
-                    ),
+                  fontFamily: 'Inter',
+                  letterSpacing: 0.0,
+                  shadows: [
+                    Shadow(
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      offset: const Offset(2.0, 2.0),
+                      blurRadius: 5.0,
+                    )
+                  ],
+                ),
                 maxLines: null,
                 minLines: 3,
                 cursorColor: FlutterFlowTheme.of(context).primaryText,
