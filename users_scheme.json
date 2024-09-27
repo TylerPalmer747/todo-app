@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UsersSchema",
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "created_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "phone_number": {
+      "type": "string",
+      "pattern": "^[0-9]{10}$"
+    },
+    "birthday": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "occupation": {
+      "type": "string"
+    }
+  },
+  "required": ["email", "display_name", "uid", "created_time"]
+}
