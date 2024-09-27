@@ -94,14 +94,13 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                 obscureText: false,
                 decoration: InputDecoration(
                   isDense: true,
-                  labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
-                        fontFamily: 'Inter',
-                        fontSize: 18.0,
-                        letterSpacing: 0.0,
-                      ),
+                  labelStyle: const TextStyle(
+                    color: Colors.black,
+                  ),
                   hintText: 'Title...',
                   hintStyle: FlutterFlowTheme.of(context).labelLarge.override(
                         fontFamily: 'Inter',
+                        color: Colors.black,
                         letterSpacing: 0.0,
                       ),
                   enabledBorder: OutlineInputBorder(
@@ -162,14 +161,13 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
                 obscureText: false,
                 decoration: InputDecoration(
                   isDense: true,
-                  labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
-                        fontFamily: 'Inter',
-                        fontSize: 18.0,
-                        letterSpacing: 0.0,
-                      ),
+                  labelStyle: const TextStyle(
+                    color: Colors.black,
+                  ),
                   hintText: 'Details...',
                   hintStyle: FlutterFlowTheme.of(context).labelLarge.override(
                         fontFamily: 'Inter',
+                        color: Colors.black,
                         letterSpacing: 0.0,
                       ),
                   enabledBorder: OutlineInputBorder(

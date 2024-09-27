@@ -229,17 +229,14 @@ class _DetailsWidgetState extends State<DetailsWidget> {
                             obscureText: false,
                             decoration: InputDecoration(
                               isDense: true,
-                              labelStyle: FlutterFlowTheme.of(context)
-                                  .labelMedium
-                                  .override(
-                                    fontFamily: 'Inter',
-                                    fontSize: 18.0,
-                                    letterSpacing: 0.0,
-                                  ),
+                              labelStyle: const TextStyle(
+                                color: Colors.black,
+                              ),
                               hintStyle: FlutterFlowTheme.of(context)
                                   .labelLarge
                                   .override(
                                     fontFamily: 'Inter',
+                                    color: Colors.black,
                                     letterSpacing: 0.0,
                                   ),
                               enabledBorder: UnderlineInputBorder(

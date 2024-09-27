@@ -192,19 +192,15 @@ class _LoginWidgetState extends State<LoginWidget>
                                           decoration: InputDecoration(
                                             isDense: true,
                                             labelText: 'Email...',
-                                            labelStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .labelMedium
-                                                    .override(
-                                                      fontFamily: 'Inter',
-                                                      fontSize: 18.0,
-                                                      letterSpacing: 0.0,
-                                                    ),
+                                            labelStyle: const TextStyle(
+                                              color: Colors.black,
+                                            ),
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .labelLarge
                                                     .override(
                                                       fontFamily: 'Inter',
+                                                      color: Colors.black,
                                                       letterSpacing: 0.0,
                                                     ),
                                             enabledBorder: OutlineInputBorder(
@@ -310,19 +306,15 @@ class _LoginWidgetState extends State<LoginWidget>
                                           decoration: InputDecoration(
                                             isDense: true,
                                             labelText: 'Password...',
-                                            labelStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .labelMedium
-                                                    .override(
-                                                      fontFamily: 'Inter',
-                                                      fontSize: 18.0,
-                                                      letterSpacing: 0.0,
-                                                    ),
+                                            labelStyle: const TextStyle(
+                                              color: Colors.black,
+                                            ),
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .labelLarge
                                                     .override(
                                                       fontFamily: 'Inter',
+                                                      color: Colors.black,
                                                       letterSpacing: 0.0,
                                                     ),
                                             enabledBorder: OutlineInputBorder(
@@ -426,19 +418,15 @@ class _LoginWidgetState extends State<LoginWidget>
                                           decoration: InputDecoration(
                                             isDense: true,
                                             labelText: 'Confirm Password...',
-                                            labelStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .labelMedium
-                                                    .override(
-                                                      fontFamily: 'Inter',
-                                                      fontSize: 18.0,
-                                                      letterSpacing: 0.0,
-                                                    ),
+                                            labelStyle: const TextStyle(
+                                              color: Colors.black,
+                                            ),
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .labelLarge
                                                     .override(
                                                       fontFamily: 'Inter',
+                                                      color: Colors.black,
                                                       letterSpacing: 0.0,
                                                     ),
                                             enabledBorder: OutlineInputBorder(
@@ -555,19 +543,15 @@ class _LoginWidgetState extends State<LoginWidget>
                                           decoration: InputDecoration(
                                             isDense: true,
                                             labelText: 'Email...',
-                                            labelStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .labelMedium
-                                                    .override(
-                                                      fontFamily: 'Inter',
-                                                      fontSize: 18.0,
-                                                      letterSpacing: 0.0,
-                                                    ),
+                                            labelStyle: const TextStyle(
+                                              color: Colors.black,
+                                            ),
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .labelLarge
                                                     .override(
                                                       fontFamily: 'Inter',
+                                                      color: Colors.black,
                                                       letterSpacing: 0.0,
                                                     ),
                                             enabledBorder: OutlineInputBorder(
@@ -673,19 +657,15 @@ class _LoginWidgetState extends State<LoginWidget>
                                           decoration: InputDecoration(
                                             isDense: true,
                                             labelText: 'Password...',
-                                            labelStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .labelMedium
-                                                    .override(
-                                                      fontFamily: 'Inter',
-                                                      fontSize: 18.0,
-                                                      letterSpacing: 0.0,
-                                                    ),
+                                            labelStyle: const TextStyle(
+                                              color: Colors.black,
+                                            ),
                                             hintStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .labelLarge
                                                     .override(
                                                       fontFamily: 'Inter',
+                                                      color: Colors.black,
                                                       letterSpacing: 0.0,
                                                     ),
                                             enabledBorder: OutlineInputBorder(

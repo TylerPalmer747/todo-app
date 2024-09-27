@@ -197,18 +197,15 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                           obscureText: false,
                           decoration: InputDecoration(
                             isDense: true,
-                            labelStyle: FlutterFlowTheme.of(context)
-                                .labelMedium
-                                .override(
-                                  fontFamily: 'Inter',
-                                  fontSize: 18.0,
-                                  letterSpacing: 0.0,
-                                ),
+                            labelStyle: const TextStyle(
+                              color: Colors.black,
+                            ),
                             hintText: 'Name...',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .labelLarge
                                 .override(
                                   fontFamily: 'Inter',
+                                  color: Colors.black,
                                   letterSpacing: 0.0,
                                 ),
                             enabledBorder: OutlineInputBorder(
@@ -290,18 +287,15 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                           obscureText: false,
                           decoration: InputDecoration(
                             isDense: true,
-                            labelStyle: FlutterFlowTheme.of(context)
-                                .labelMedium
-                                .override(
-                                  fontFamily: 'Inter',
-                                  fontSize: 18.0,
-                                  letterSpacing: 0.0,
-                                ),
+                            labelStyle: const TextStyle(
+                              color: Colors.black,
+                            ),
                             hintText: 'Occupation...',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .labelLarge
                                 .override(
                                   fontFamily: 'Inter',
+                                  color: Colors.black,
                                   letterSpacing: 0.0,
                                 ),
                             enabledBorder: OutlineInputBorder(
